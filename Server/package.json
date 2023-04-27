@@ -1,0 +1,32 @@
+{
+  "name": "fsjs-p2-v1-c1-server-edwardosamosir",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10473035&assignment_repo_type=AssignmentRepo)\r # p2-cms-integration-server\r CMS Integration - Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h8-fsjs-gitclass-p2-23/fsjs-p2-v1-c1-server-edwardosamosir.git"
+  },
+  "author": "edwardosamosir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h8-fsjs-gitclass-p2-23/fsjs-p2-v1-c1-server-edwardosamosir/issues"
+  },
+  "homepage": "https://github.com/h8-fsjs-gitclass-p2-23/fsjs-p2-v1-c1-server-edwardosamosir#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "google-auth-library": "^8.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.10.0",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

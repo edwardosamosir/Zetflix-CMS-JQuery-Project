@@ -1,0 +1,23 @@
+{
+  "name": "fsjs-p2-v1-c1-client-edwardosamosir",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10500921&assignment_repo_type=AssignmentRepo)\r # p2-cms-integration-client\r CMS Integration - Client",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port 8080 --host localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h8-fsjs-gitclass-p2-23/fsjs-p2-v1-c1-client-edwardosamosir.git"
+  },
+  "author": "edwardosamosir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h8-fsjs-gitclass-p2-23/fsjs-p2-v1-c1-client-edwardosamosir/issues"
+  },
+  "homepage": "https://github.com/h8-fsjs-gitclass-p2-23/fsjs-p2-v1-c1-client-edwardosamosir#readme",
+  "devDependencies": {
+    "vite": "^4.1.4"
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "users": [
+    {
+      "username": "edwardosamosir",
+      "email": "edwardosamosir@gmail.com",
+      "password": "L154inb4b1$$",
+      "role": "Admin",
+      "phoneNumber": "81200009999",
+      "address": "882 Fremont Trail"
+    },
+    {
+      "username": "pdonavan0",
+      "email": "mjedrzejkiewicz0@gravatar.com",
+      "password": "vurRT0",
+      "role": "Staff",
+      "phoneNumber": "4223815822",
+      "address": "882 Fremont Trail"
+    },
+    {
+      "username": "tjacqueminot1",
+      "email": "pgors1@cisco.com",
+      "password": "YIMVT8V",
+      "role": "Staff",
+      "phoneNumber": "1176700065",
+      "address": "4064 Caliangt Place"
+    },
+    {
+      "username": "mjury2",
+      "email": "cnormavill2@google.pl",
+      "password": "KKp3zY0t",
+      "role": "Staff",
+      "phoneNumber": "6395596893",
+      "address": "2 North Plaza"
+    },
+    {
+      "username": "nandreacci3",
+      "email": "cgarahan3@utexas.edu",
+      "password": "paIES7JGu",
+      "role": "Staff",
+      "phoneNumber": "8444404702",
+      "address": "4315 Pleasure Trail"
+    },
+    {
+      "username": "jedes4",
+      "email": "jfyfield4@list-manage.com",
+      "password": "PvtgDO",
+      "role": "Staff",
+      "phoneNumber": "5679039415",
+      "address": "30036 Dunning Hill"
+    },
+    {
+      "username": "bbes5",
+      "email": "mcockley5@washington.edu",
+      "password": "UMXBlY8wXgCT",
+      "role": "Admin",
+      "phoneNumber": "7448177944",
+      "address": "365 Superior Trail"
+    },
+    {
+      "username": "hgreengrass6",
+      "email": "psugden6@multiply.com",
+      "password": "BLqMlYh",
+      "role": "Admin",
+      "phoneNumber": "4356532535",
+      "address": "6159 Arizona Park"
+    },
+    {
+      "username": "gslade7",
+      "email": "hdougherty7@drupal.org",
+      "password": "9obPlg",
+      "role": "Admin",
+      "phoneNumber": "8883705108",
+      "address": "38 Duke Circle"
+    },
+    {
+      "username": "iayliffe8",
+      "email": "awoodworth8@tiny.cc",
+      "password": "1usamfy",
+      "role": "Staff",
+      "phoneNumber": "7559957300",
+      "address": "5 Northridge Park"
+    },
+    {
+      "username": "rsenn9",
+      "email": "nmathieu9@trellian.com",
+      "password": "fe5iGd",
+      "role": "Staff",
+      "phoneNumber": "2662507011",
+      "address": "9672 Derek Drive"
+    },
+    {
+      "username": "kcolnetta",
+      "email": "eshanka@freewebs.com",
+      "password": "TS61Yc",
+      "role": "Admin",
+      "phoneNumber": "9564195963",
+      "address": "258 Oak Trail"
+    },
+    {
+      "username": "dflaxmanb",
+      "email": "smaccaheyb@adobe.com",
+      "password": "lHV02HfmK",
+      "role": "Admin",
+      "phoneNumber": "6719246688",
+      "address": "24 Monument Drive"
+    },
+    {
+      "username": "ptolussic",
+      "email": "aattreedc@slate.com",
+      "password": "x4ePfKWbq",
+      "role": "Admin",
+      "phoneNumber": "9985157304",
+      "address": "08954 Nevada Drive"
+    },
+    {
+      "username": "nponnsettd",
+      "email": "mseneschald@apple.com",
+      "password": "aXpio5bEA2Ci",
+      "role": "Admin",
+      "phoneNumber": "4598270195",
+      "address": "5151 Merry Lane"
+    },
+    {
+      "username": "mtayloe",
+      "email": "cburgille@psu.edu",
+      "password": "8YCj4nRux5",
+      "role": "Admin",
+      "phoneNumber": "2156527037",
+      "address": "19205 Continental Avenue"
+    },
+    {
+      "username": "hzanref",
+      "email": "lferrieref@marketwatch.com",
+      "password": "PXCrimhI",
+      "role": "Admin",
+      "phoneNumber": "5299466378",
+      "address": "76 Arapahoe Parkway"
+    },
+    {
+      "username": "rbodleg",
+      "email": "jclearyg@sourceforge.net",
+      "password": "L3d3M2jKSac",
+      "role": "Staff",
+      "phoneNumber": "3933184107",
+      "address": "8622 Northport Crossing"
+    },
+    {
+      "username": "atibolsh",
+      "email": "rcastroh@bloomberg.com",
+      "password": "oF1TLQa6n6A",
+      "role": "Admin",
+      "phoneNumber": "6072456975",
+      "address": "507 Red Cloud Park"
+    },
+    {
+      "username": "lpinki",
+      "email": "bbandierai@psu.edu",
+      "password": "qrAPic2",
+      "role": "Admin",
+      "phoneNumber": "8821460818",
+      "address": "0299 4th Crossing"
+    },
+    {
+      "username": "bseekingsj",
+      "email": "jwebbenj@taobao.com",
+      "password": "Ev2lPl4j",
+      "role": "Staff",
+      "phoneNumber": "8259169896",
+      "address": "7985 Artisan Alley"
+    },
+    {
+      "username": "jpasterfieldk",
+      "email": "hryank@posterous.com",
+      "password": "piOaYK",
+      "role": "Staff",
+      "phoneNumber": "8619267409",
+      "address": "2 Superior Plaza"
+    },
+    {
+      "username": "nbortoluzzil",
+      "email": "tseargeantl@163.com",
+      "password": "mWc2w92oBT",
+      "role": "Staff",
+      "phoneNumber": "7932353740",
+      "address": "00 Lukken Hill"
+    },
+    {
+      "username": "mwhearm",
+      "email": "eaitchisonm@howstuffworks.com",
+      "password": "7K5TSYKnwqv",
+      "role": "Staff",
+      "phoneNumber": "9529683243",
+      "address": "0656 Hauk Point"
+    },
+    {
+      "username": "smintyn",
+      "email": "schiddyn@kickstarter.com",
+      "password": "TDYTHAghBvh",
+      "role": "Staff",
+      "phoneNumber": "4581447450",
+      "address": "07133 Lakewood Court"
+    },
+    {
+      "username": "gfaireo",
+      "email": "pferrarioo@ucoz.ru",
+      "password": "v3lfqGKx",
+      "role": "Staff",
+      "phoneNumber": "9248020213",
+      "address": "48851 Heath Park"
+    },
+    {
+      "username": "aschenfischp",
+      "email": "gcarpp@umich.edu",
+      "password": "7S381H6QF",
+      "role": "Staff",
+      "phoneNumber": "9638901678",
+      "address": "7422 Arapahoe Center"
+    },
+    {
+      "username": "tweddeburnq",
+      "email": "yslayq@alexa.com",
+      "password": "eaYdYO",
+      "role": "Staff",
+      "phoneNumber": "2265345862",
+      "address": "02403 Melvin Lane"
+    },
+    {
+      "username": "lmaccarlichr",
+      "email": "bswindellr@va.gov",
+      "password": "8LTavsN",
+      "role": "Admin",
+      "phoneNumber": "2657941763",
+      "address": "3229 Goodland Pass"
+    },
+    {
+      "username": "ironcellis",
+      "email": "abartolettis@shareasale.com",
+      "password": "ut3kbkxKM9",
+      "role": "Admin",
+      "phoneNumber": "7578505923",
+      "address": "4 Heffernan Street"
+    },
+    {
+      "username": "fculpant",
+      "email": "jdeakest@mit.edu",
+      "password": "08x3OxZefk8c",
+      "role": "Admin",
+      "phoneNumber": "7869849961",
+      "address": "7114 Jay Way"
+    }
+  ],
+  "genres": [
+    {
+      "name": "Comedy"
+    },
+    {
+      "name": "Adventure"
+    },
+    {
+      "name": "Romance"
+    },
+    {
+      "name": "Crime"
+    },
+    {
+      "name": "Drama"
+    },
+    {
+      "name": "Action"
+    },
+    {
+      "name": "Documentary"
+    },
+    {
+      "name": "Horror"
+    },
+    {
+      "name": "War"
+    },
+    {
+      "name": "Mystery"
+    },
+    {
+      "name": "Science Fiction"
+    },
+    {
+      "name": "Animation"
+    },
+    {
+      "name": "Musical"
+    },
+    {
+      "name": "Fantasy"
+    },
+    {
+      "name": "Thriller"
+    }
+  ],
+  "movies": [
+    {
+      "title": "Avengers: Infinity War",
+      "synopsis": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "trailerUrl": "https://www.youtube.com/watch?v=6ZfuNTqbHE8",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "rating": 8,
+      "genreId": 11,
+      "authorId": 1
+    },
+    {
+      "title": "John Wick: Chapter 3 - Parabellum",
+      "synopsis": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
+      "trailerUrl": "https://www.youtube.com/watch?v=M7XM597XO94",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+      "rating": 7,
+      "genreId": 6,
+      "authorId": 23
+    },
+    {
+      "title": "The Conjuring",
+      "synopsis": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. Forced to confront a powerful entity, the Warrens find themselves caught in the most terrifying case of their lives.",
+      "trailerUrl": "https://www.youtube.com/watch?v=k10ETZ41q5o",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+      "rating": 7,
+      "genreId": 8,
+      "authorId": 31
+    },
+    {
+      "title": "Jumanji: Welcome to the Jungle",
+      "synopsis": "Four teenagers in detention discover an old video game console with a game they’ve never heard of. When they decide to play, they are immediately sucked into the jungle world of Jumanji in the bodies of their avatars. They’ll have to complete the adventure of their lives filled with fun, thrills and danger or be stuck in the game forever!",
+      "trailerUrl": "https://www.youtube.com/watch?v=rBxcF-r9Ibs",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pSgXKPU5h6U89ipF7HBYajvYt7j.jpg",
+      "rating": 8,
+      "genreId": 2,
+      "authorId": 18
+    },
+    {
+      "title": "The Notebook",
+      "synopsis": "An epic love story centered around an older man who reads aloud to a woman with Alzheimer's. From a faded notebook, the old man's words bring to life the story about a couple who is separated by World War II, and is then passionately reunited, seven years later, after they have taken different paths.",
+      "trailerUrl": "https://www.youtube.com/watch?v=BjJcYdEOI0k",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg",
+      "rating": 8,
+      "genreId": 3,
+      "authorId": 3
+    },
+    {
+      "title": "Knives Out",
+      "synopsis": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
+      "trailerUrl": "https://www.youtube.com/watch?v=xi-1NchUqMA",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+      "rating": 8,
+      "genreId": 10,
+      "authorId": 21
+    },
+    {
+      "title": "3 Idiots",
+      "synopsis": "Rascal. Joker. Dreamer. Genius... You've never met a college student quite like Rancho. From the moment he arrives at India's most prestigious university, Rancho's outlandish schemes turn the campus upside down—along with the lives of his two newfound best friends. Together, they make life miserable for Virus, the school’s uptight and heartless dean. But when Rancho catches the eye of the dean's sexy daughter, Virus sets his sights on flunking out the 3 idiots once and for all.",
+      "trailerUrl": "https://www.youtube.com/watch?v=xvszmNXdM4w",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/66A9MqXOyVFCssoloscw79z8Tew.jpg",
+      "rating": 8,
+      "genreId": 1,
+      "authorId": 25
+    },
+    {
+      "title": "Saving Private Ryan",
+      "synopsis": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+      "trailerUrl": "https://www.youtube.com/watch?v=9CiW_DgxCnQ",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1wY4psJ5NVEhCuOYROwLH2XExM2.jpg",
+      "rating": 8,
+      "genreId": 9,
+      "authorId": 7
+    },
+    {
+      "title": "Dilan 1990",
+      "synopsis": "At a Bandung high school, charming and rebellious Dilan vies for the affections of shy new student Milea.",
+      "trailerUrl": "https://www.youtube.com/watch?v=X_b-wNkz4DU",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eitRZXfbw6rO0CfP3lPaGgK63qr.jpg",
+      "rating": 7,
+      "genreId": 5,
+      "authorId": 11
+    },
+    {
+      "title": "Seaspiracy",
+      "synopsis": "Passionate about ocean life, a filmmaker sets out to document the harm that humans do to marine species — and uncovers an alarming global conspiracy.",
+      "trailerUrl": "https://www.youtube.com/watch?v=1Q5CXN7soQg",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iFNri0fwn1WfCoxf3H3v1z8dCm4.jpg",
+      "rating": 8,
+      "genreId": 7,
+      "authorId": 8
+    },
+    
+    {
+      "title": "The Godfather",
+      "synopsis": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+      "trailerUrl": "https://www.youtube.com/watch?v=sY1S34973zA",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "rating": 9,
+      "genreId": 4,
+      "authorId": 14
+    },
+    {
+      "title": "The Sound of Music",
+      "synopsis": "In the years before the Second World War, a tomboyish postulant at an Austrian abbey is hired as a governess in the home of a widowed naval captain with seven children, and brings a new love of life and music into the home.",
+      "trailerUrl": "https://www.youtube.com/watch?v=aMMgcAqOYbI",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xvXiJggaxRrU4jLjTXCmqnqEsGd.jpg",
+      "rating": 8,
+      "genreId": 13,
+      "authorId": 17
+    },
+    {
+      "title": "Parasite",
+      "synopsis": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+      "trailerUrl": "https://www.youtube.com/watch?v=5xH0HfJHsaY",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "rating": 9,
+      "genreId": 15,
+      "authorId": 29
+    },
+    {
+      "title": "Minions: The Rise of Gru",
+      "synopsis": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
+      "trailerUrl": "https://www.youtube.com/watch?v=6DxjJzmYsXo",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",
+      "rating": 7,
+      "genreId": 12,
+      "authorId": 8
+    },
+    {
+      "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "synopsis": "Siblings Lucy, Edmund, Susan and Peter step through a magical wardrobe and find the land of Narnia. There, they discover a charming, once peaceful kingdom that has been plunged into eternal winter by the evil White Witch, Jadis. Aided by the wise and magnificent lion, Aslan, the children lead Narnia into a spectacular, climactic battle to be free of the Witch's glacial powers forever.",
+      "trailerUrl": "https://www.youtube.com/watch?v=usEkWtuNn-w",
+      "imgUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iREd0rNCjYdf5Ar0vfaW32yrkm.jpg",
+      "rating": 7,
+      "genreId": 14,
+      "authorId": 4
+    }
+  ]
+}

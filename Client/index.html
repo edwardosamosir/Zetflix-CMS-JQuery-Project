@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="IDEA Admin Panel" />
+  <meta name="author" content="Ziady Mubaraq" />
+  <link href="./image/zetflix-logo-no-bg.png" type="image/x-icon" rel="shortcut icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0"
+    rel="stylesheet" />
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <link href="./css/style.css" rel="stylesheet" />
+  <title>Zetflix - Admin Panel</title>
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader" style="display: none">
+    <div class="loading">
+      <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_remmdtqv.json" background="transparent"
+        speed="1" style="width: 300px; height: 300px" loop autoplay></lottie-player>
+    </div>
+  </div>
+  <!-- End Preloader -->
+
+  <!-- Navbar -->
+  <header class="navbar sticky-top bg-white flex-md-nowrap p-0 shadow" id="navbar">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6">
+      <img src="./image/zetflix-logo-no-bg.png" width="80" height="45" class="d-inline-block me-2" alt="Zetflix" />Admin
+      Panel</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#sidebar-menu" aria-controls="sidebar-menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </header>
+  <!-- End Navbar -->
+
+  <!-- Login Section -->
+  <section class="container" id="login-section">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="mb-3 mt-5">Login Options</h1>
+        <span>Log in and autocomplete your order with your personal data, or sign
+          up to enjoy all the benefits of an Netflix account.</span>
+      </div>
+      <div class="col-12 col-lg-8 offset-lg-2 my-5">
+        <div class="row">
+          <div class="col-12 col-md-6 border-end p-5 text-left">
+            <div class="form-signin m-auto">
+              <form id="register-form">
+                <h1 class="h3 mb-3 display-1">Sign up and enjoy</h1>
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between">
+                    <label for="register-username">Username</label>
+                    <label class="text-danger text-end fw-bold">*</label>
+                  </div>
+                  <input type="text" class="form-control" id="register-username" placeholder="Enter your username ..."
+                    autocomplete="off" required />
+                </div>
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between">
+                    <label for="register-email">Email</label>
+                    <label class="text-danger text-end fw-bold">*</label>
+                  </div>
+                  <input type="email" class="form-control" id="register-email" placeholder="Enter email address ..."
+                    autocomplete="off" required />
+                </div>
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between">
+                    <label for="register-password">Password</label>
+                    <label class="text-danger text-end fw-bold">*</label>
+                  </div>
+                  <input type="password" class="form-control" id="register-password"
+                    placeholder="Enter your password ..." autocomplete="off" required />
+                </div>
+                <div class="mb-3">
+                  <label for="register-phone">Phone Number</label>
+                  <input type="number" class="form-control" id="register-phone"
+                    placeholder="Enter phone number (optional) ..." autocomplete="off" />
+                </div>
+                <div class="mb-3">
+                  <label for="register-address">Address</label>
+                  <textarea id="register-address" class="form-control" rows="3"
+                    placeholder="Enter your address (optional) ..." autocomplete="off"></textarea>
+                </div>
+                <button class="btn btn-lg btn-danger rounded-pill w-100 p-2 mt-3" type="submit">
+                  Sign Up
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 p-5 text-left">
+            <div class="form-signin m-auto">
+              <form id="login-form">
+                <h1 class="h3 mb-3 display-1">Log in to your account</h1>
+                <span>Log in on your profile to autocomplete your purchase order
+                  with your personal data.</span>
+                <div class="mb-3 mt-3">
+                  <div class="d-flex justify-content-between">
+                    <label for="login-email">Email</label>
+                    <label class="text-danger text-end fw-bold">*</label>
+                  </div>
+                  <input type="email" class="form-control" id="login-email" placeholder="Enter email address ..."
+                    autocomplete="off" required />
+                </div>
+                <div class="mb-4">
+                  <div class="d-flex justify-content-between">
+                    <label for="login-password">Password</label>
+                    <label class="text-danger text-end fw-bold">*</label>
+                  </div>
+                  <input type="password" class="form-control" id="login-password" placeholder="Enter your password ..."
+                    autocomplete="off" required />
+                </div>
+                <div class="checkbox mb-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="login-remember" />
+                    <label class="form-check-label" for="login-remember">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+                <button class="btn btn-lg btn-danger rounded-pill w-100 p-2" type="submit">
+                  Log In
+                </button>
+                <hr>
+
+                <div id="buttonDiv" style="text-align: center"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Login Section -->
+
+  <!-- Home Section -->
+  <section class="container-fluid" id="home-section">
+    <div class="row">
+      <!-- Sidebar -->
+      <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" id="sidebar-menu">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" href="" id="nav-dashboard">
+                <span class="icon material-symbols-outlined me-2">shop</span>Dashboard of Collections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" id="nav-product">
+                <span class="icon material-symbols-outlined me-2">movie</span>Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" id="nav-category">
+                <span class="icon material-symbols-outlined me-2">camera</span>Genres</a>
+            </li>
+          </ul>
+          <h6
+            class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted text-uppercase">
+            <span>Account</span>
+          </h6>
+          <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+              <a class="nav-link">
+                <span class="icon material-symbols-outlined me-2">person</span>Hi, <span id="username">Ziady!</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" id="nav-logout">
+                <span class="icon material-symbols-outlined me-2">logout</span>Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End Sidebar -->
+
+      <!-- Dashboard Section -->
+      <section class="col-md-9 ms-sm-auto col-lg-10 px-md-4" id="dashboard-section">
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="display-2">Dashboard of Collections</h1>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12 col-md-6 mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted">
+                      Total Movies
+                    </h6>
+                    <h6 class="card-title card-number" id="total-product">
+                      0
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted">
+                      Total Genres
+                    </h6>
+                    <h6 class="card-title card-number" id="total-category">
+                      0
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Dashboard Section -->
+
+      <!-- Product Section -->
+      <section class="col-md-9 ms-sm-auto col-lg-10 px-md-4" id="product-section">
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="display-2">Movies</h1>
+          <button class="btn btn-danger rounded-pill" id="new-product">
+            <span class="icon material-symbols-outlined">add</span>New Movies
+          </button>
+        </div>
+        <div class="row">
+          <div class="col-12 table-responsive">
+            <table class="table align-middle">
+              <thead>
+                <tr>
+                  <th scope="col">No.</th>
+                  <th scope="col">Title</th>
+                  <th scope="col" width="180px">Image</th>
+                  <th scope="col" width="250px">Genre</th>
+                  <th scope="col">Trailer URL</th>
+                  <th scope="col">Synopsis</th>
+                  <th scope="col">Rating</th>
+                  <th scope="col">Author</th>
+                  <th scope="col" width="50px"></th>
+                </tr>
+              </thead>
+              <tbody id="table-product">
+                <tr>
+                  <td scope="row">#1</td>
+                  <td class="fw-bold">MILLBERGET</td>
+                  <td>
+                    <img src="https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/201/1020142_PE831799_S4.jpg"
+                      class="img-fluid" />
+                  </td>
+                  <td>Swivel chair, murum black</td>
+                  <td>13</td>
+                  <td class="fw-bold">Rp1.599.000</td>
+                  <td>ziady.mubaraq@gmail.com</td>
+                  <td>
+                    <a href="" class="ms-3"><span class="icon material-symbols-outlined text-danger">delete</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">#2</td>
+                  <td class="fw-bold">MICKE</td>
+                  <td>
+                    <img src="https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/359/0735981_PE740299_S4.jpg"
+                      class="img-fluid" />
+                  </td>
+                  <td>Desk, black-brown, 105x50 cm</td>
+                  <td>30</td>
+                  <td class="fw-bold">Rp1.799.000</td>
+                  <td>ziady.mubaraq@gmail.com</td>
+                  <td>
+                    <a href="" class="ms-3"><span class="icon material-symbols-outlined text-danger">delete</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">#3</td>
+                  <td class="fw-bold">ALEX</td>
+                  <td>
+                    <img src="https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/777/0977775_PE813763_S3.jpg"
+                      class="img-fluid" />
+                  </td>
+                  <td>drawer unit, white, 36x70 cm</td>
+                  <td>12</td>
+                  <td class="fw-bold">Rp1.370.000</td>
+                  <td>ziady.mubaraq@gmail.com</td>
+                  <td>
+                    <a href="" class="ms-3"><span class="icon material-symbols-outlined text-danger">delete</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">#4</td>
+                  <td class="fw-bold">SOCKERBIT</td>
+                  <td>
+                    <img src="https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/290/1029026_PE835627_S3.jpg"
+                      class="img-fluid" />
+                  </td>
+                  <td>Storage box with lid, grey-green, 19x26x15 cm</td>
+                  <td>42</td>
+                  <td class="fw-bold">Rp59.900</td>
+                  <td>ziady.mubaraq@gmail.com</td>
+                  <td>
+                    <a href="" class="ms-3"><span class="icon material-symbols-outlined text-danger">delete</span></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!-- End Product Section -->
+
+      <!-- New Product Section -->
+      <section class="col-md-9 ms-sm-auto col-lg-10 px-md-4" id="new-product-section">
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="display-2">New Movies</h1>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <form id="product-form">
+              <div class="mb-3">
+                <label for="product-name">Title <span class="text-danger fw-bold">*</span></label>
+                <input type="text" class="form-control" id="product-name" placeholder="Enter movie title"
+                  autocomplete="off" required />
+              </div>
+              <div class="mb-3">
+                <label for="product-category">Genres <span class="text-danger fw-bold">*</span></label>
+                <select id="product-category" class="form-select" id="genres-selection" required>
+                  <option value="" selected disabled>
+                    -- Select Genres --
+                  </option>
+                  <option value="1">Furniture</option>
+                  <option value="2">Workspace</option>
+                  <option value="3">Storage</option>
+                  <option value="4">Textile</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="product-desc">Synopsis <span class="text-danger fw-bold">*</span></label>
+                <input type="text" class="form-control" id="product-desc" placeholder="Enter movie synopsis"
+                  autocomplete="off" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="product-stock">Rating <span class="text-danger fw-bold">*</span></label>
+                <input type="number" min="0" class="form-control" id="movie-rating" placeholder="Enter movie rating"
+                  autocomplete="off" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="product-image">Image <span class="text-danger fw-bold">*</span></label>
+                <input type="text" class="form-control" id="product-image" placeholder="Enter movie image url"
+                  autocomplete="off" required />
+              </div>
+              <div class="mb-3">
+                <label for="trailer-url">Trailer <span class="text-danger fw-bold">*</span></label>
+                <input type="text" class="form-control" id="trailer-url" placeholder="Enter movie trailer url"
+                  autocomplete="off" required />
+              </div>
+
+              <div class="row mt-5 mb-3">
+                <div class="col-6">
+                  <a class="btn btn-lg btn-light rounded-pill w-100 p-2" href="">Cancel</a>
+                </div>
+                <div class="col-6">
+                  <button class="btn btn-lg btn-danger rounded-pill w-100 p-2" type="submit" href="">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- End New Product Section -->
+
+      <!-- Category Section -->
+      <section class="col-md-9 ms-sm-auto col-lg-10 px-md-4" id="category-section">
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="display-2">Movie Genres</h1>
+          <button class="btn btn-danger rounded-pill" id="new-category">
+            <span class="icon material-symbols-outlined">add</span>New Genres
+          </button>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">No.</th>
+                  <th scope="col">Movie Genre</th>
+                  <th scope="col" width="50px"></th>
+                </tr>
+              </thead>
+              <tbody id="table-category">
+                <tr>
+                  <td scope="row">#1</td>
+                  <td class="fw-bold">Furniture</td>
+                  <td>
+                    <a href="" class="ms-3"><span class="icon material-symbols-outlined text-danger"></span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">#2</td>
+                  <td class="fw-bold">Workspace</td>
+                  <td>
+                    <a href="" class="ms-3"><span class="icon material-symbols-outlined text-danger">delete</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">#3</td>
+                  <td class="fw-bold">Storage</td>
+                  <td>
+                    <a href="" class="ms-3"><span class="icon material-symbols-outlined text-danger">delete</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">#4</td>
+                  <td class="fw-bold">Textile</td>
+                  <td>
+                    <a href="" class="ms-3"><span class="icon material-symbols-outlined text-danger">delete</span></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!-- End Category Section -->
+
+      <!-- New Category Section -->
+      <section class="col-md-9 ms-sm-auto col-lg-10 px-md-4" id="new-category-section">
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="display-2">New Genres</h1>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <form id="category-form">
+              <div class="mb-3">
+                <label for="category-name">Name <span class="text-danger fw-bold">*</span></label>
+                <input type="text" class="form-control" id="category-name" placeholder="Enter genre name"
+                  autocomplete="off" required />
+              </div>
+              <div class="row mt-5 mb-3">
+                <div class="col-6">
+                  <a class="btn btn-lg btn-light rounded-pill w-100 p-2" href="">Cancel</a>
+                </div>
+                <div class="col-6">
+                  <button class="btn btn-lg btn-danger rounded-pill w-100 p-2" type="submit" href="">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- End New Category Section -->
+    </div>
+  </section>
+  <!-- End Home Section -->
+
+  <!-- Sweet Alert template -->
+  <template id="my-template">
+    <swal-icon type="warning" color="red"></swal-icon>
+    <swal-button type="confirm" color="red">OK</swal-button>
+  </template>
+
+  <template id="toast-template">
+    <swal-icon type="warning" color="red"></swal-icon>
+  </template>
+
+  <!-- End Sweet Alert template -->
+
+  <!-- Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    const baseUrl = "https://zetflix-movies.up.railway.app";
+
+    const Toast = Swal.mixin({
+      toast: true,
+      position: "top-end",
+      showConfirmButton: false,
+      timer: 2000
+    });
+
+    function fetchMovies() {
+      $.ajax({
+        url: baseUrl + "/movies",
+        method: "get",
+        headers: {
+          access_token: localStorage.access_token
+        }
+      })
+        .done((movies) => {
+          // console.log(movies);
+          // $("#table-product").empty();
+          $("#total-product").html(movies.length);
+          let content = "";
+
+          movies.forEach((el, idx) => {
+            const temp = `
+                  <tr>
+                    <td scope="row">${++idx}</td>
+                    <td class="fw-bold">${el.title}</td>
+                    <td>
+                      <img
+                        src="${el.imgUrl}"
+                        class="img-fluid"
+                      />
+                    </td>
+                    <td>${el.Genre.name}</td>
+                    <td><a href="${el.trailerUrl}">${el.trailerUrl}<a></td>
+                    <td>${el.synopsis}</td>
+                    <td class="fw-bold">${el.rating}</td>
+                    <td>${el.author.email}</td>
+                    <td>
+                      <a id="delete-movie" class="ms-3" onclick="deleteMovieById(${el.id
+              })"><span
+                          class="icon material-symbols-outlined text-danger"
+                          >delete</span></a>
+                    </td>
+                  </tr>
+            `;
+            content = content + temp;
+            // $("#table-product").append(temp);
+          });
+          $("#table-product").html(content);
+        })
+        .fail((err) => {
+          // console.log(err);
+          $("#table-product").empty();
+          Swal.fire({
+            icon: "error",
+            template: '#my-template',
+            title: err.responseText
+          });
+        });
+    }
+
+    function fetchGenres() {
+      $.ajax({
+        url: baseUrl + "/genres",
+        method: "get",
+        headers: {
+          access_token: localStorage.access_token
+        }
+      })
+        .done((genres) => {
+          // console.log(genres);
+          $("#total-category").html(genres.length);
+
+          let genresList = "";
+          let movieGenres = `<option value="" selected disabled>-- Select Movie Genres --</option>`;
+          genres.forEach((el, idx) => {
+            const temp = `
+              <tr>
+                <td scope="row">${++idx}</td>
+                <td class="fw-bold">${el.name}</td>
+                <td>
+                  <a class="ms-3" onclick="deleteGenreById(${el.id
+              })"><span class="icon material-symbols-outlined text-danger">delete</span></a>
+                </td>
+              </tr>
+            `;
+
+            genresList = genresList + temp;
+
+            movieGenres += `
+              <option value="${el.id}">${el.name}</option>
+            `;
+          });
+
+          $("#table-category").html(genresList);
+          $("#product-category").html(movieGenres);
+        })
+        .fail((err) => {
+          // console.log(err);
+          $("#table-category").empty();
+          Swal.fire({
+            icon: "error",
+            template: '#my-template',
+            title: err.responseText
+          });
+        });
+    }
+
+    function deleteMovieById(id) {
+
+      Swal.fire({
+        template: '#my-template',
+        title: 'Are you sure want to remove this movie?',
+        text: "You won't be able to revert this!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, remove it!'
+      })
+        .then((result) => {
+          if (result.isConfirmed) {
+            
+            $.ajax({
+              url: baseUrl + `/movies/${id}`,
+              method: "delete",
+              headers: {
+                access_token: localStorage.access_token
+              }
+            })
+              .done((response) => {
+                fetchMovies();
+                // console.log(response);
+                Swal.fire({
+                  icon: "success",
+                  template: '#my-template',
+                  title: response.message
+                });
+              })
+              .fail((err) => {
+                // console.log(err);
+                Swal.fire({
+                  icon: "error",
+                  template: '#my-template',
+                  title: err.responseJSON.message
+                });
+              });
+
+            // Swal.fire({
+            //   icon: "success",
+            //   template: '#my-template',
+            //   title: response.message
+            // })
+          }
+        })
+
+    }
+
+      function deleteGenreById(id) {
+        
+        Swal.fire({
+          template: '#my-template',
+          title: 'Are you sure want to remove this movie genre?',
+          text: "You won't be able to revert this!",
+          icon: 'warning',
+          showCancelButton: true,
+          confirmButtonColor: '#3085d6',
+          cancelButtonColor: '#d33',
+          confirmButtonText: 'Yes, remove it!'
+        })
+          .then((result) => {
+            if (result.isConfirmed) {
+
+              $.ajax({
+                url: baseUrl + `/genres/${id}`,
+                method: "delete",
+                headers: {
+                  access_token: localStorage.access_token
+                }
+              })
+                .done((response) => {
+                  fetchGenres();
+                  // console.log(response);
+                  Swal.fire({
+                    icon: "success",
+                    template: '#my-template',
+                    title: response.message
+                  });
+                })
+                .fail((err) => {
+                  // console.log(err);
+                  Swal.fire({
+                    icon: "error",
+                    template: '#my-template',
+                    title: err.responseJSON.message
+                  });
+                });
+
+              // Swal.fire({
+              //   icon: "success",
+              //   template: '#my-template',
+              //   title: response.message
+              // })
+            }
+          })
+
+     
+    }
+
+    function handleCredentialResponse(response) {
+      const googleAccessToken = response.credential;
+      // console.log("Encoded JWT ID token: " + response.credential);
+
+      $.ajax({
+        url: baseUrl + "/users/login-with-google",
+        method: "post",
+        headers: {
+          google_access_token: googleAccessToken
+        }
+      })
+        .done(response => {
+          // console.log(response)
+          localStorage.access_token = response.access_token;
+          localStorage.username = response.username;
+          localStorage.email = response.email;
+          localStorage.role = response.role;
+
+          $("#username").html(localStorage.username);
+
+          $("#login-section").hide();
+          $("#home-section").show();
+          $("#new-product-section").hide();
+          $("#new-category-section").hide();
+          $("#product-section").hide();
+          $("#category-section").hide();
+          $("#dashboard-section").show();
+
+          fetchMovies();
+          fetchGenres();
+          Toast.fire({
+            icon: "success",
+            template: '#toast-template',
+            title: response.message
+          });
+        })
+        .fail((err) => {
+          console.log(err)
+          const { message } = err.responseJSON.message;
+          if (message === "Failed Accessing Google Account") {
+            $("#login-section").show();
+            $("#home-section").hide();
+          }
+          // console.log(err.responseJSON.message)
+          Swal.fire({
+            icon: "error",
+            template: '#my-template',
+            title: err.responseJSON.message
+          });
+        });
+    }
+
+    // Safety Manipulation
+    $(document).ready(() => {
+      // Load Script
+      google.accounts.id.initialize({
+        client_id: "794142405359-n7ub7rrvk7nolpej3rf6f52g1k81njsl.apps.googleusercontent.com",
+        callback: handleCredentialResponse
+      });
+      google.accounts.id.renderButton(
+        document.getElementById("buttonDiv"),
+        { theme: "outline", size: "large" }  // customization attributes
+      );
+      google.accounts.id.prompt(); // also display the One Tap dialog
+
+      if (localStorage.access_token) {
+        $("#username").html(localStorage.username);
+        fetchMovies();
+        fetchGenres();
+        $("#login-section").hide();
+        $("#home-section").show();
+        $("#new-product-section").hide();
+        $("#new-category-section").hide();
+        $("#product-section").hide();
+        $("#category-section").hide();
+        $("#dashboard-section").show();
+      } else {
+        $("#login-section").show();
+        $("#home-section").hide();
+      }
+
+      $("#login-form").submit((event) => {
+        event.preventDefault();
+        const email = $("#login-email").val();
+        const password = $("#login-password").val();
+
+        $.ajax({
+          url: baseUrl + "/users/login",
+          method: "post",
+          data: {
+            email,
+            password
+          }
+        })
+          .done((response) => {
+            // console.log(response);
+            localStorage.access_token = response.access_token;
+            localStorage.username = response.username;
+            localStorage.email = response.email;
+            localStorage.role = response.role;
+
+            // If successfully logged in
+
+            $("#username").html(localStorage.username);
+
+            $("#login-section").hide();
+            $("#home-section").show();
+            $("#new-product-section").hide();
+            $("#new-category-section").hide();
+            $("#product-section").hide();
+            $("#category-section").hide();
+            $("#dashboard-section").show();
+
+            fetchMovies();
+            fetchGenres();
+            Toast.fire({
+              icon: "success",
+              template: '#toast-template',
+              title: response.message
+            });
+          })
+          .fail((err) => {
+            // console.log(err);
+            const { message } = err.responseJSON.message;
+            if (message === "Invalid Email or Password") {
+              $("#login-section").show();
+              $("#home-section").hide();
+            }
+            // console.log(err.responseJSON.message)
+            Swal.fire({
+              icon: "error",
+              template: '#my-template',
+              title: err.responseJSON.message
+            });
+          });
+      });
+
+      $("#register-form").submit((event) => {
+        event.preventDefault();
+        const username = $("#register-username").val();
+        const email = $("#register-email").val();
+        const password = $("#register-password").val();
+        const phoneNumber = $("#register-phone").val();
+        const address = $("#register-address").val();
+        // console.log({username, email, password, phoneNumber, address})
+
+        $.ajax({
+          url: baseUrl + "/users/register",
+          method: "post",
+          data: {
+            username,
+            email,
+            password,
+            phoneNumber,
+            address
+          }
+        })
+          .done((registeredData) => {
+            // console.log(registeredData)
+            Toast.fire({
+              icon: "success",
+              template: '#toast-template',
+              title: registeredData.message
+            });
+            $("#register-form").trigger("reset");
+          })
+          .fail((err) => {
+            // console.log(err);
+            Swal.fire({
+              icon: "error",
+              template: '#my-template',
+              title: err.responseJSON.message
+            });
+          });
+      });
+
+      $("#nav-logout").click((event) => {
+        // If successfully logged out
+        event.preventDefault();
+        localStorage.removeItem("access_token");
+        $("#login-section").show();
+        $("#home-section").hide();
+        Toast.fire({
+          icon: "success",
+          template: '#toast-template',
+          title: `${localStorage.username} is succesfully logged out`
+        });
+        localStorage.clear();
+        $("#login-form").trigger("reset");
+      });
+
+      $("#nav-product").click((event) => {
+        event.preventDefault();
+        fetchMovies();
+        $("#login-section").hide();
+        $("#nav-category").removeClass("active").removeClass("fw-bold");
+        $("#nav-dashboard").removeClass("active").removeClass("fw-bold");
+        $("#nav-product").addClass("active").addClass("fw-bold");
+        $("#new-product-section").hide();
+        $("#new-category-section").hide();
+        $("#product-section").show();
+        $("#category-section").hide();
+        $("#dashboard-section").hide();
+      });
+
+      $("#nav-category").click((event) => {
+        event.preventDefault();
+        $("#login-section").hide();
+        $("#nav-category").addClass("active").addClass("fw-bold");
+        $("#nav-dashboard").removeClass("active").removeClass("fw-bold");
+        $("#nav-product").removeClass("active").removeClass("fw-bold");
+        $("#new-product-section").hide();
+        $("#new-category-section").hide();
+        $("#product-section").hide();
+        $("#category-section").show();
+        $("#dashboard-section").hide();
+      });
+
+      $("#nav-dashboard").click((event) => {
+        event.preventDefault();
+        $("#nav-category").removeClass("active").removeClass("fw-bold");
+        $("#nav-dashboard").addClass("active").addClass("fw-bold");
+        $("#nav-product").removeClass("active").removeClass("fw-bold");
+        $("#new-product-section").hide();
+        $("#new-category-section").hide();
+        $("#product-section").hide();
+        $("#category-section").hide();
+        $("#dashboard-section").show();
+      });
+
+      $("#new-product").click((event) => {
+        event.preventDefault();
+        $("#product-section").hide();
+        $("#new-product-section").show();
+      });
+
+      $("#product-form").submit((event) => {
+        event.preventDefault();
+        const title = $("#product-name").val();
+        const genreId = $("#product-category").val();
+        const synopsis = $("#product-desc").val();
+        const imgUrl = $("#product-image").val();
+        const trailerUrl = $("#trailer-url").val();
+        const rating = $("#movie-rating").val();
+
+        // console.log({title, genreId, synopsis,rating, imgUrl,trailerUrl})
+        $.ajax({
+          url: baseUrl + "/movies",
+          method: "post",
+          headers: {
+            access_token: localStorage.access_token
+          },
+          data: {
+            title,
+            genreId,
+            synopsis,
+            rating,
+            imgUrl,
+            trailerUrl
+          }
+        })
+          .done((moviesResult) => {
+            fetchMovies();
+            $("#product-section").show();
+            $("#new-product-section").hide();
+            $("#product-form").trigger("reset");
+            // console.log(moviesResult)
+            Swal.fire({
+              icon: "success",
+              template: '#my-template',
+              title: moviesResult.message
+            });
+          })
+          .fail((err) => {
+            // console.log(err);
+            Swal.fire({
+              icon: "error",
+              template: '#my-template',
+              title: err.responseJSON.message
+            });
+          });
+      });
+
+      $("#new-category").click((event) => {
+        event.preventDefault();
+        $("#category-section").hide();
+        $("#new-category-section").show();
+      });
+
+      $("#category-form").submit((event) => {
+        event.preventDefault();
+        const name = $("#category-name").val();
+        // console.log({ name });
+        $.ajax({
+          url: baseUrl + "/genres",
+          method: "post",
+          headers: {
+            access_token: localStorage.access_token
+          },
+          data: {
+            name
+          }
+        })
+          .done((dataGenres) => {
+            fetchGenres();
+            $("#category-section").show();
+            $("#new-category-section").hide();
+            $("#category-form").trigger("reset");
+            // console.log(dataGenres);
+            Swal.fire({
+              icon: "success",
+              template: '#my-template',
+              title: dataGenres.message
+            });
+          })
+          .fail((err) => {
+            Swal.fire({
+              icon: "error",
+              template: '#my-template',
+              title: err.responseJSON.message
+            });
+          });
+      });
+    });
+  </script>
+</body>
+
+</html>
